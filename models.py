@@ -12,7 +12,7 @@ class User(BaseModel):
         return v
 
 try:
-    user = User(id=1, name='John Doe', age=16)
+    user = User(id=1, name='Jane Doe', age=16)
 except ValueError as e:
         print(e)
 

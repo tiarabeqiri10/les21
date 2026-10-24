@@ -5,7 +5,7 @@ def get_name(name: Optional[str] = None) -> str:
         return name
     return "Anonymous"
 
-print(get_name("John"))
+print(get_name("Jane"))
 
 def process_value(value: Union[int, str]) -> str:
     if isinstance(value, int):

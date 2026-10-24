@@ -7,5 +7,5 @@ class User(BaseModel):
     age: Optional[int] = None
     email: Optional[str] = None
 
-user1 = User(id=2, name="John doe", email="johndoe@exmaple.com")
+user1 = User(id=2, name="Jane doe", email="johndoe@exmaple.com")
 print(user1)
